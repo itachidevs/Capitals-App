@@ -1,0 +1,74 @@
+.container {
+  background-color: #93c5fd;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.card {
+  background-color: #f8fafc;
+  padding: 20px;
+  width: 100%;
+  border-radius: 1rem;
+}
+.heading {
+  font-size: 1rem;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #1e293b;
+}
+.options-container {
+  display: flex;
+  gap: 10px;
+}
+.options-list {
+  outline: none;
+  width: 80%;
+  font-family: 'Roboto';
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #1e293b;
+  border-radius: 10px;
+  border: 1px solid #cbd2d9;
+  padding: 10px;
+}
+.label {
+  font-size: 0.8rem;
+  font-weight: 500;
+  font-family: 'Roboto';
+  color: #323f4b;
+}
+.capital {
+  font-size: 0.8rem;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #323f4b;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 100%;
+  }
+  .card{
+    width: 60%;
+  }
+  .heading {
+    font-size: 2rem;
+  }
+  .options-list {
+    width: 50%;
+    font-size: 1.3rem;
+  }
+  .label {
+    width: 50%;
+  }
+  .options-container {
+    width: 100%;
+  }
+  .label {
+    font-size: 1.3rem;
+  }
+  .capital {
+    font-size: 1.3rem;
+  }
+}
